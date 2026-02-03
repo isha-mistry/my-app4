@@ -1,0 +1,31 @@
+{
+  "name": "my-dapp",
+  "version": "0.1.0",
+  "description": "A Web3 application - foundation built with Cradle",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "deploy:token": "ts-node scripts/deploy-erc20.ts",
+    "token:info": "ts-node scripts/token-info.ts",
+    "deploy:erc721": "ts-node scripts/deploy-erc721.ts",
+    "nft:info": "ts-node scripts/nft-info.ts",
+    "ostium:setup": "echo \"See packages/ostium-onect/README.md for setup instructions\"",
+    "maxxit:setup": "echo \"See packages/maxxit-lazy-trader/README.md for setup instructions\"",
+    "onchain:setup": "echo \"See packages/onchain-activity/README.md for setup instructions\"",
+    "bridge:test": "echo \"Bridge integration ready\"",
+    "longtail:test": "echo \"Longtail integration ready\""
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.3.0"
+  },
+  "packageManager": "pnpm@9.0.0",
+  "license": "MIT",
+  "keywords": [
+    "web3",
+    "dapp"
+  ]
+}
